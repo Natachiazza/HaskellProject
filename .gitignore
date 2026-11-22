@@ -1,0 +1,26 @@
+# Stack / Cabal build artifacts
+.stack-work/
+dist/
+dist-newstyle/
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Executables
+*.exe
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
